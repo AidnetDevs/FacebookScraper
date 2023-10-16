@@ -26,4 +26,3 @@ def get_page(input_string: str):
 def get_post(input_string: str):
     result = fbs.get_posts(post_urls=iter([input_string]))
     return result
-
