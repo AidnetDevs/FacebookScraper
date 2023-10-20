@@ -27,7 +27,6 @@ def get_post_with_cookies(input_string: str):
     result = fbs.get_posts(post_urls=iter([input_string]))
     return result
 
-
 #---------------------------------------------------------------------
 
 @app.get("/get_group/{input_string}")
